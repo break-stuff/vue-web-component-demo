@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "src/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "my-counter",
+          "declaration": {
+            "name": "anonymous_0",
+            "module": "src/index.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "stories/index.stories.js",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "story1"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "module": "stories/index.stories.js"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "story1",
+          "declaration": {
+            "name": "story1",
+            "module": "stories/index.stories.js"
+          }
+        }
+      ]
+    }
+  ]
+}

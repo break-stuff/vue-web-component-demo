@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/break-stuff.cevue-lrr6rst4",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve Bp35ue4eXzRuMbWTV9qX --open"
+  }
+}
